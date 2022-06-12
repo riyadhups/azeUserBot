@@ -102,7 +102,7 @@ class InteractiveTelegramClient(TelegramClient):
 
 if __name__ == '__main__':
    surum = str(sys.version_info[0]) + "." + str(sys.version_info[1])
-   bilgi("BozQurd String v1\nTelegram: @BozQurd\nPython: " + surum + "\nTeleThon: " + version.__version__ + "\nBs4/Requests: ✅\n")
+   bilgi("@ASOUserBott String v1\nTelegram: @ASOsup\nPython: " + surum + "\nTeleThon: " + version.__version__ + "\nBs4/Requests: ✅\n")
    onemli("[1] Yeni")
    onemli("[2] Köhnə\n")
    
