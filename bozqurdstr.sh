@@ -1,5 +1,5 @@
-MESAJ="BozQurd String"
-MESAJ+="\nTelegram: @BozQurdResmi"
+MESAJ="ASO String"
+MESAJ+="\nTelegram: @ASOresmi"
 pkg upgrade
 clear
 echo -e $MESAJ
