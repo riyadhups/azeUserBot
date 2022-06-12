@@ -15,7 +15,7 @@
 ----
 
 ## Qurulum
-ASOnUserbot qurmaq üçün Telegramda [BozQurdUserBot](t.me/BozQurdUserBot) -a daxil olun, Botda quruluma aid video,yazı və.s əlavələr mövcuddur.
+ASOnUserbot qurmaq üçün Telegramda [ASOUserBott](t.me/ASOUserBott) -a daxil olun, Botda quruluma aid video,yazı və.s əlavələr mövcuddur.
 
 ### Termux Android
 Botu Android telefonlarına qurmaq üçün aşağıdakı kodu termuxa yapışdırın
