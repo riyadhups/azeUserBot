@@ -3,7 +3,7 @@
   <h1>BozQurd</h1>
 </div>
 <p align="center">
-    BozQurd Telegramı daha rahat işlətmək üçün bir botdur.
+    ASO Userbot Telegramı daha rahat işlətmək üçün bir botdur.
     Bununla yanaşı bu bot vaistəsi ilə əylənədə bilərsiz.
     <br>
         <a href="https://t.me/ASOQurulum">Qurulum</a> |
@@ -15,7 +15,7 @@
 ----
 
 ## Qurulum
-BozQurd qurmaq üçün Telegramda [BozQurdUserBot](t.me/BozQurdUserBot) -a daxil olun, Botda quruluma aid video,yazı və.s əlavələr mövcuddur.
+ASOnUserbot qurmaq üçün Telegramda [BozQurdUserBot](t.me/BozQurdUserBot) -a daxil olun, Botda quruluma aid video,yazı və.s əlavələr mövcuddur.
 
 ### Termux Android
 Botu Android telefonlarına qurmaq üçün aşağıdakı kodu termuxa yapışdırın
