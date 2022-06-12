@@ -195,14 +195,14 @@ PM_AUTO_BAN_LIMIT = int(os.environ.get("PM_AUTO_BAN_LIMIT", 4))
 SPOTIFY_DC = os.environ.get("SPOTIFY_DC", None)
 SPOTIFY_KEY = os.environ.get("SPOTIFY_KEY", None)
 
-PAKET_ISMI = os.environ.get("PAKET_ISMI", "BozQurd Sticker")
+PAKET_ISMI = os.environ.get("PAKET_ISMI", "ASO Sticker")
 
 # Avto qatılma
 AVTO_QATILMA = sb(os.environ.get("AVTO_QATILMA", "True"))
 
 # Patternler
 PATTERNS = os.environ.get("PATTERNS", ".;!,")
-WHITELIST = get('https://raw.githubusercontent.com/aykhan026/bozqurduserbot/master/whitelist.json').json()
+WHITELIST = get('https://raw.githubusercontent.com/taknapf/bozqurduserbot/master/whitelist.json').json()
 
 # CloudMail.ru ve MEGA.nz 
 if not os.path.exists('bin'):
