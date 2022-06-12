@@ -39,13 +39,13 @@ DIZCILIK_STR = [
 ]
 
 ALIVE_MESAJ = [
-    "**Canım Gözüm** {mention} ❤️ \n 🐺`BozQurd işləyir...`",
-    "😍**Səni unutdum sanma** {mention} 🐺`BozQurd işləyir...`",
-    "😈**Narahat olma** {mention} 🐺`BozQurd işləyir...`",
-    "🇦🇿🇹🇷 **Bizim Qanımız Türk Qanıdır** {mention} \n 🐺`BozQurd işləyir...`",
-    "{mention} **Bu** 🌹-ü **Səninçün Alp dağlarından gətirdim**😍 \n 🐺`BozQurd İşləyir...`",
+    "**Canım Gözüm** {mention} ❤️ \n 🐺`ASOUserbot işləyir...`",
+    "😍**Səni unutdum sanma** {mention} 🐺`ASOUserbot işləyir...`",
+    "😈**Narahat olma** {mention} 🐺`ASOUserbot işləyir...`",
+    "🇦🇿🇹🇷 **Bizim Qanımız Türk Qanıdır** {mention} \n 🐺`ASOUserbot işləyir...`",
+    "{mention} **Bu** 🌹-ü **Səninçün Alp dağlarından gətirdim**😍 \n 🐺`ASOUserbot İşləyir...`",
     "{mention} **Sən .alive yazarkən mən bunu səninçün hazırladım** (⊃｡•́‿•̀｡)⊃━✿✿✿✿✿✿ 😍\n🐺`BozQurd işləyir...`",
-    "{mention} **Gecə-Gündüz fasiləsiz xidmətindəyəm**😎\n🐺`BozQurd işləyir...`",
+    "{mention} **Gecə-Gündüz fasiləsiz xidmətindəyəm**😎\n🐺`ASOUserbot işləyir...`",
 ]
 
 AFKSTR = [
@@ -74,7 +74,7 @@ AFKSTR = [
 UNAPPROVED_MSG = ("`Hey,` {mention}`! Bu bir bot. Narahat olma.\n\n`"
                   "`Sahibim sənə PM atma icazəsi verməyib. `"
                   "`Zəhmət olmasa sahibimin aktiv olmağını gözləyin, o adətən PM'ləri qəbul edir.\n\n`"
-                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@BozQurdResmi")
+                  "`Bildiyim qədəri ilə o dəlilərə PM atma icazəsi vermir.`\n@ASOUserBott")
 
 DB = connect("learning-data-root.check")
 CURSOR = DB.cursor()
@@ -242,8 +242,8 @@ for module_name in ALL_MODULES:
     imported_module = import_module("userbot.modules." + module_name)
 
 LOGS.info("Botunuz işleyir! Hansısa söhbete  .alive yazaraq Test ede bilersiz!."
-          " Kömeye ehtiyacınız varsa, destek qrupuna gelin: t.me/BozQurdSup")
-LOGS.info(f"Bot versiyası: BozQurd {BOZQURD_VERSION}")
+          " Kömeye ehtiyacınız varsa, destek qrupuna gelin: t.me/ASOSup")
+LOGS.info(f"Bot versiyası: ASO UserBot {ASO_VERSION}")
 
 """
 if len(argv) not in (1, 3, 4):
