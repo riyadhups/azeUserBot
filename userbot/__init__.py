@@ -86,7 +86,7 @@ HEROKU_APIKEY = os.environ.get("HEROKU_APIKEY", None)
 # Yenileme üçün repo linki
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/aykhan026/bozqurduserbot.git")
+    "https://github.com/tankapf/bozqurduserbot.git")
 
 # Konsol gündeliy
 CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
@@ -117,13 +117,13 @@ QALERIYA_VAXT = int(os.environ.get("QALERIYA_VAXT", 60))
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
+    "ALIVE_LOGO") or "https://te.legra.ph/file/3b9a36545162ad6438e08.jpg"
 
 # BozQurdun adı
-BOZQURD_AD = os.environ.get("BOZQURD_AD") or "𝔹𝕠𝕫ℚ𝕦𝕣𝕕"
+BOZQURD_AD = os.environ.get("ASO UserBot") or "@Vusaliw"
 
 # Sticker Paket Adı
-S_PACK_NAME = os.environ.get("S_PACK_NAME", "BozQurd Sticker")
+S_PACK_NAME = os.environ.get("S_PACK_NAME", "ASO Sticker")
 
 # BozQurd
 CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
@@ -303,9 +303,9 @@ with bot:
         @tgbot.on(NewMessage(pattern='/start'))
         async def start_bot_handler(event):
             if not event.message.from_id == uid:
-                await event.reply(f'`Salam mən` @BozQurdResmi`! Mən sahibimə (`@{me.username}`) kömək etmək üçün varam, yəni sənə kömək edə bilmərəm :( Amma səndə BozQurd qura bilərsən Kanala bax` @BozQurdResmi')
+                await event.reply(f'`Salam mən` @ASOUserBott`! Mənim sahibimə (`@{me.username}`) kömək etmək üçün varam, yəni sənə kömək edə bilmərəm :( Amma səndə BozQurd qura bilərsən Kanala bax` @BozQurdResmi')
             else:
-                await event.reply(f'`BozQurd İşləyir 🐺`')
+                await event.reply(f'`ASOUserBot İşləyir 🐺`')
 
         @tgbot.on(InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
@@ -317,7 +317,7 @@ with bot:
                 veriler = (butonlastir(0, sorted(CMD_HELP)))
                 result = await builder.article(
                     f"Zəhmət olmasa sadəcə .kömek ilə kömək istəyin.",
-                    text=f"**BozQurd Əla İşləyir 🐺** [BozQurd](https://t.me/bozqurdresmi) __İşləyir...__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Sayfa:** 1/{veriler[0]}",
+                    text=f"**ASOUserBot Əla İşləyir 🐺** [ASOUserBott](https://t.me/ASOUserBott) __İşləyir...__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Sayfa:** 1/{veriler[0]}",
                     buttons=veriler[1],
                     link_preview=False
                 )
@@ -333,14 +333,14 @@ with bot:
                 )
             else:
                 result = builder.article(
-                    "@BozQurdResmi",
-                    text="""@BozQurdResmi işlədin
+                    "@ASOUserBott",
+                    text="""@ASOUserBott işlədin
 Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmayın, siz başqasının botunu idarə etməssiniz! Altdakı GitHub adresində bütün qurulum detayları var""",
                     buttons=[
-                        [custom.Button.url("Kanal", "https://t.me/BozQurdResmi"), custom.Button.url(
-                            "Qrup", "https://t.me/BozQurdSup")],
+                        [custom.Button.url("Kanal", "https://t.me/ASOUserBott"), custom.Button.url(
+                            "Qrup", "https://t.me/ASOSup")],
                         [custom.Button.url(
-                            "GitHub", "https://github.com/aykhan026/bozqurduserbot")]
+                            "GitHub", "https://github.com/ta/bozqurduserbot")]
                     ],
                     link_preview=False
                 )
@@ -349,11 +349,11 @@ Hesabınızı bot'a çevirə bilərsiz və bunları işlədə bilərsiz. Unutmay
         @tgbot.on(callbackquery.CallbackQuery(data=compile(b"sayfa\((.+?)\)")))
         async def sayfa(event):
             if not event.query.user_id == uid: 
-                return await event.answer("Hey! Mənim mesajlarımı düzəltməyə çalışma! Özünə bir @BozQurdResmi qur.", cache_time=0, alert=True)
+                return await event.answer("Hey! Mənim mesajlarımı düzəltməyə çalışma! Özünə bir @ASOUserBott qur.", cache_time=0, alert=True)
             sayfa = int(event.data_match.group(1).decode("UTF-8"))
             veriler = butonlastir(sayfa, CMD_HELP)
             await event.edit(
-                f"**BozQurd Əla İşləyir🐺** [BozQurd](https://t.me/BozQurdResmi) __İşləyir...__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Sayfa:** {sayfa + 1}/{veriler[0]}",
+                f"**ASOUserBott Əla İşləyir🐺** [ASOUserBot](https://t.me/ASOUserBott) __İşləyir...__\n\n**Yüklənən Modul Sayı:** `{len(CMD_HELP)}`\n**Sayfa:** {sayfa + 1}/{veriler[0]}",
                 buttons=veriler[1],
                 link_preview=False
             )
