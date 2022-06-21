@@ -114,7 +114,7 @@
             "ALREADY": "`Hazırda %s onsuzda avtomatik olaraq dəyişir.`",
             "SETTING": "`%s nizamlanır...`",
             "BIO": "📅 Tarix: {tarih} | ⌚️ Saat: {saat} | 🇦🇿 ",
-            "NICK": "@BozQurdResmi",
+            "NICK": "@AzeUserbotResmi",
             "SETTED": "`%s nizamlandı :)`",
             "NAME": "⏰%s"
         },
