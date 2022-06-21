@@ -73,7 +73,7 @@ async def dil(event):
             f"**Dil Kodu: **`{LANGUAGE_JSON['LANGCODE']}`\n"
             f"**Çevirən: **`{LANGUAGE_JSON ['AUTHOR']}`\n"
 
-            f"\n\n@BozQurdResmi ✨"
+            f"\n\n@AzeuserbotResmi ✨"
         )
 
 CmdHelp('dil').add_command(
