@@ -1,9 +1,9 @@
-# RoBotlarimTg - BozQurd UserBot
-# t.me/RoBotlarimTg
-# t.me/aykhan_s
-# t.me/BozQurdResmi
-# Support - @BozQurdSup
-# Owner - @aykhan_s
+# RiyaddBlog - AzeUserBot
+# t.me/RiyaddBlog 
+# t.me/Thagiyevvvv 
+# t.me/Azeuserbotresmi
+# Support - @Azeusersupp
+# Owner - @Thagiyevvvv
 
 
 from userbot.cmdhelp import CmdHelp
@@ -14,11 +14,11 @@ from userbot.events import register as bozqurd
 # ██████ LANGUAGE CONSTANTS ██████ #
 
 from userbot.language import get_value
-LANG = get_value("__bozqurd")
+LANG = get_value("__azeuserbot")
 
 # ████████████████████████████████ #
 
-@bozqurd(outgoing=True, pattern="^.bozqurd(?: |$)(.*)")
+@bozqurd(outgoing=True, pattern="^.azeuderbot(?: |$)(.*)")
 async def bozqurd(event):
     """ necesen """
     args = event.pattern_match.group(1).lower()
