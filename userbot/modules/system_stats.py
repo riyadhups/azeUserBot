@@ -77,7 +77,7 @@ async def bot_ver(event):
                          "`")
     else:
         await event.edit(
-            "[BozQurd](https://t.me/bozqurdresmi)"
+            "[Azeuserbot](https://t.me/azeuserbotresmi)"
         )
 
 
@@ -164,5 +164,5 @@ CmdHelp('system_stats').add_command(
 ).add_command(
     'pip', '<modul(lar)>', 'Pip modullarında axtarış edər.'
 ).add_command(
-    'alive', None, 'BozQurd\'un işləyib işləmədiyini yoxlamaq üçündür.'
+    'alive', None, 'AzeUserbot\'un işləyib işləmədiyini yoxlamaq üçündür.'
 ).add()
