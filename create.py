@@ -64,7 +64,7 @@ async def telegraphs(grop):
                 r = await grop.client(
                     functions.channels.CreateChannelRequest(  # pylint:disable=E0602
                         title=group_name,
-                        about="@ASOUserBott ilə yaradılmış Qrup/Kanal",
+                        about="@Azeuserbot ilə yaradılmış Qrup/Kanal",
                         megagroup=False if type_of_group == "c" else True,
                     )
                 )
