@@ -30,7 +30,7 @@
             "ALREADY_DELETED": "⚠️`Plugin faylı artıq silinib.`",
             "NOT_FOUND_PLUGIN": "⚠️ **Plugin tapılmadı",
             "PLUG_DELETED": "🗑️`Plugin uğurla silindi!` **Tətbiq ediləcək əməliyyatlar üçün yenidən başlatmağınız lazımdır.**",
-            "BOZQURD_PLUGIN_CAPTION": "Bu [BozQurd](https://t.me/BozQurdResmi) pluginidir."
+            "BOZQURD_PLUGIN_CAPTION": "Bu [AzeUserbot](https://t.me/AzePlugin) pluginidir."
         },
         
         "__bozqurd": {
@@ -114,7 +114,7 @@
             "ALREADY": "`Hazırda %s onsuzda avtomatik olaraq dəyişir.`",
             "SETTING": "`%s nizamlanır...`",
             "BIO": "📅 Tarix: {tarih} | ⌚️ Saat: {saat} | 🇦🇿 ",
-            "NICK": "@AzeUserbotResmi",
+            "NICK": "@Azeplugin",
             "SETTED": "`%s nizamlandı :)`",
             "NAME": "⏰%s"
         },
