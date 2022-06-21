@@ -276,7 +276,7 @@ async def stag(event):
 async def restart(event):
     await event.edit("⛔ **Tağ prosesi dayandırıldı**")
     if BOTLOG:
-        await event.client.send_message(BOTLOG_CHATID, "⛔ **Tağ prosesi dayandırıldı**\n👨🏻‍💻 **Sahib -** @aykhan_s"
+        await event.client.send_message(BOTLOG_CHATID, "⛔ **Tağ prosesi dayandırıldı**\n👨🏻‍💻 **Sahib -** @Thagiyevvvv"
                                         )
 
     try:
@@ -301,5 +301,5 @@ CmdHelp('tagger').add_command(
 ).add_command(
     'ctag', '<Mesajınız>', ' Cümlələrlə və maraqlı sözlərlə tək tək tağ edir'
 ).add_command(
-    'stp', None, '⛔Aktiv tağ prosesini dayandırır\n\n👨🏻‍💻Sahib - @aykhan_s\n📣 Rəsmi Kanal - @RoBotlarimTg'
+    'stp', None, '⛔Aktiv tağ prosesini dayandırır\n\n👨🏻‍💻Sahib - @Thagiyevvvv\n📣 Rəsmi Kanal - @RiyaddBlog'
 ).add()
