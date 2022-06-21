@@ -1,3 +1,3 @@
-# BozQurd - @aykhan_s
+# Aze - @Thagiyevvvv
 
 from .read_lines import random_line
