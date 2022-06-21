@@ -1,9 +1,9 @@
-# RoBotlarimTg - BozQurd UserBot
-# t.me/RoBotlarimTg
-# t.me/aykhan_s
-# t.me/BozQurdResmi
-# Support - @BozQurdSup
-# Owner - @aykhan_s
+# RiyaddBlog - AzeUserBot
+# t.me/RiyaddBlog 
+# t.me/Thagiyevvvv 
+# t.me/AzeuserbotResmi
+# Support - @AzeuserSup
+# Owner - @Thagiyevvvv
 
 # ██████ LANGUAGE CONSTANTS ██████ #
 
