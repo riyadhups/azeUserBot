@@ -1,5 +1,5 @@
-MESAJ="ASO String"
-MESAJ+="\nTelegram: @ASOresmi"
+MESAJ="AZE String"
+MESAJ+="\nTelegram: @AzeuserbotResmi"
 pkg upgrade
 clear
 echo -e $MESAJ
@@ -15,7 +15,7 @@ pip install bs4
 clear
 echo -e $MESAJ
 echo "Fayl yazılır..."
-curl "https://raw.githubusercontent.com/tankapf/bozqurduserbot/master/bozqurd.py" --output "bozqurd.py"
+curl "https://raw.githubusercontent.com/riyadhups/Azeserbot/master/bozqurd.py" --output "bozqurd.py"
 clear
 echo -e $MESAJ
 echo "Qurulum Bitdi! İndi String Ala Bilərsiz."
